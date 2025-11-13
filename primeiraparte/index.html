@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="circle"></div>
+        <span>COMPANY NAME</span>
+      </div>
+    </header>
+
+    <main class="form-container">
+      <div class="progress">
+        <div class="dot active"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+      </div>
+
+      <h1>Registration</h1>
+      <p class="description">
+        Fill in the registration data. It will take a couple of minutes.<br>
+        All you need is a phone number and e-mail
+      </p>
+
+      <div class="privacy-box">
+        <span class="lock">🔒</span>
+        <p>We take privacy issues seriously. You can be sure that your personal data is securely protected.</p>
+        <button class="close">×</button>
+      </div>
+
+      <form>
+        <label for="phone">Enter your phone number</label>
+        <div class="phone-input">
+          <select>
+            <option value="+1">+1</option>
+          </select>
+          <input type="text" id="phone" placeholder="555 555-1234">
+        </div>
+        <button class="send-code">Send Code</button>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
